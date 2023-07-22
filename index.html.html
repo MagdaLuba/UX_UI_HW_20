@@ -1,7 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar Example</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<!--Navugation Bar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images\Magdalena (1).png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            Magdalena Edwards
+          </a>
+        </div>
+      </nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.behance.net/gallery/172801639/UX-UI-non-profit-website-redesign">Behance Link</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+<!--Hero Section (Welcome)-->
   <div class="jumbotron">
+
     <h1 class="display-4">Welcome to my Non profit responsive website redesign Case Study</h1>
     <p class="lead">During this group project we moved through different phases of the design thinking processes to create a prototype for the redesign of a non profit website (desktop and mobile phone)</p>
     <hr class="my-4">
@@ -9,40 +43,11 @@
     <p class="lead">
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </p>
+  
   </div>
-</div>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images\Magdalena (1).png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-          Magdalena Edwards
-        </a>
-      </div>
-    </nav>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.behance.net/gallery/172801639/UX-UI-non-profit-website-redesign">Behance Link</a>
-        </li>
-    </div>
-  </div>
-</nav>
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sidebar Example</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-</head>
-<body>
-  <div><header></header></div>
+
+
+ <!--Content-->
   <div class="container-fluid">
     <div class="row">
       <!-- Sidebar -->
@@ -57,7 +62,7 @@
           <a href="#complete-case-study" class="list-group-item list-group-item-action">07. COMPLETE CASE STUDY</a>
           </div>
       </div>
-      <img src="images\Group 34132.png" alt="hero" height="40%" width="40%">
+      <img class="mainImage" src="images\Group 34132.png" alt="hero" height="40%" width="40%">
       
       <!-- Content -->
       <div class="col-md-9">
