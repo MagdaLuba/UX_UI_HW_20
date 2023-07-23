@@ -6,9 +6,12 @@
   <title>Sidebar Example</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-<!--Navugation Bar-->
+<!--Navigation Bar-->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <nav class="navbar bg-body-tertiary">
@@ -34,24 +37,21 @@
     </div>
   </nav>
 <!--Hero Section (Welcome)-->
-  <div class="jumbotron">
-
-    <h1 class="display-4">Welcome to my Non profit responsive website redesign Case Study</h1>
-    <p class="lead">During this group project we moved through different phases of the design thinking processes to create a prototype for the redesign of a non profit website (desktop and mobile phone)</p>
-    <hr class="my-4">
-    <p>Utilising design thinking and agile methodology, our team successfully redesigned the Rugby Foodbank website in a 3-week sprint..</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
-  
+  <div class="jumbotron my-0 mx-auto text-center">
+      <h1 class="display-4">Welcome to my Non profit responsive website redesign Case Study</h1>
+      <p class="lead">During this group project we moved through different phases of the design thinking processes to create a prototype for the redesign of a non profit website (desktop and mobile phone)</p>
+      <hr class="my-4">
+      <p>Utilising design thinking and agile methodology, our team successfully redesigned the Rugby Foodbank website in a 3-week sprint..</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
   </div>
 
 
- <!--Content-->
-  <div class="container-fluid">
-    <div class="row">
+<section class="sideBarSection">
+  <div class="row">
       <!-- Sidebar -->
-      <div class="col-md-3">
+      <div class="col-md-4 mx-5 px-5">
         <div class="list-group">
           <a href="#what-i-did" class="list-group-item list-group-item-action">01. WHAT I DID</a>
           <a href="#the-process" class="list-group-item list-group-item-action">02. THE PROCESS</a>
@@ -62,8 +62,16 @@
           <a href="#complete-case-study" class="list-group-item list-group-item-action">07. COMPLETE CASE STUDY</a>
           </div>
       </div>
-      <img class="mainImage" src="images\Group 34132.png" alt="hero" height="40%" width="40%">
-      
+      <div class="col">
+      <img class="mainImage" src="images\Group 34132.png" alt="hero" >
+    </div>
+  </div>
+</section>
+
+      <!--Content-->
+<section class="contentSection">    
+  <div class="container-fluid">
+    <div class="row">     
       <!-- Content -->
       <div class="col-md-9">
         <section id="what-i-did">
@@ -76,8 +84,6 @@
           <h2>02. THE PROCESS</h2>
           <p> We started off by creating a proto-persona based on our assumptions. Initially, we thought the user could be a single mother facing financial difficulties and who goes to the website for help.
           </p>
-          <p> After analysing our date gathered from 4 user intervies, we created a user persona called Sam, who is eager to make a donation. This helped to visually represent our target users and understand their needs.</p></section>
-        <p>As well as creating a user scenario, we made a user journey map to discover opportunities for improvement as Sam completes his goal of donating food. </p>
           <section id="user-research-findings">
           <h2>03. USER RESEARCH &amp; FINDINGS</h2>
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -121,69 +127,76 @@
             Upon analyzing insights we discovered several user pain points including, confusing images in the hero section and inconsistency in button design.
             </p>
           <p>We conducted a heuristic evaluation to help us identify further usability issues and found inconsistent call-to-action buttons, confusing users who only want to donate food.</p>
-        <p>Finally, we looked into different solutions that would improve the overall design of the website by completing a competitor analysis based on researching 3 direct and non-direct companies involved in charitable aid.
-          <img src="images\Group 34135 (1).png" alt="">
-          <p>We created an Empathy Map to reveal any weaknesses in our existing user research data by removing bias from our designs and align the team on a single, shared understanding of the user.</p>
-        </section>
-        </p></section>
-        
-        <section id="ideation-design">
-          <h2>04. IDEATION DESIGN</h2>
-          <img src="images\journey.jpg" alt="user journey">
-          As well as creating a user scenario, we made a user journey map to discover opportunities for improvement as Sam completes his goal of donating food. 
-         <P>
+        <p>After analysing our date gathered from 4 user intervies, we created a user persona called Sam, who is eager to make a donation. This helped to visually represent our target users and understand their needs. As well as creating a user scenario, we made a user journey map to discover opportunities for improvement as Sam completes his goal of donating food.
+          <p>Finally, we looked into different solutions that would improve the overall design of the website by completing a competitor analysis based on researching 3 direct and non-direct companies involved in charitable aid.</p>
           
-         </P> <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="images\Group 3.png" class="card-img" alt="Brainstorming Ideas">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Brain Storming Ideas</h5>
-                  <p class="card-text">Finally, to reorganize the site’s home page, we sketched our ideas on paper. </p>
-                  <p class="card-text"><small class="text-muted">We could now agree on our layout</small></p>
-                </div>
-              </div>
+          <!-- Images displayed side by side -->
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images\Group 34135 (1).png" alt="empathy map" height="100%" width="100%">
+            </div>
+            <div class="col-md-6">
+              <img src="images\Foodbank Redesign.jpg" alt="storyboard" width="100%" height="100%">
             </div>
           </div>
-          
-        <section id="usability-testing-findings">
-          <h2>05. USABILITY TESTING &amp; FINDINGS</h2>
-          <p>We then conducted an A & B user test to further improve the mobile phone prototype. .</p>
-          testa<img src="images\Group 34119.png" alt=" test a" width="20%" height="20%">
-          testb<img src="images\Group 34120.png" alt="" srcset=""width="20%" height="20%">
+          <p>We created an Empathy Map to reveal any weaknesses in our existing user research data by removing bias from our designs and align the team on a single, shared understanding of the user.</p>
         </section>
-        <section id="interactive-prototype">
+        </p></section><p>
+        
+        
+
+        <section class="ideation-design">
+          <h2>04. IDEATION DESIGN</h2>
+          <h3>How could we improve Sam’s journey?</h3>
+          <p>We have been able to streamline Sam’s preferences in terms of the site’s UI. We concluded that Sam would like a modern visually appealing design that is easy to navigate with a capturing hero section and the ability to create his own donor profile.
+          </p>
+          </div><img src="images\journey.jpg" class="" alt="ideate" height="100%" width="100%">
+          <p></p>
+          <p>Finally, we reorganized the site's homepage by first sketching our ideas on paper. We then transferred those sketches into Figma, where we added styles and finer details to create a polished design. Figma's collaborative features allowed us to work seamlessly as a team, resulting in an interactive prototype that closely resembles the final design.  This Helped us <li>Agree on the organisation and layout of the homepage
+
+            <li>Understand each team members design ideas</li><li>Prioritise the hierarchy of different sections</li> 
+            </p>
+
+        <img src="images\Group 3.png" alt="brainstorming" width="40%" height="40%">
+        <img src="images\Group 8.png" alt="Prototype"width="50%" height="50%">
+          </section>
+         <section class="usability-testing-findings">
+          <h2>05. USABILITY TESTING &amp; FINDINGS</h2>
+          <p>We then conducted an A & B user test to further improve the mobile phone prototype. 5 usability tests were conducted on the hi-fi desktop prototype and it was found that users wanted a donate form to be visible on the home page so it is easier to access..</p>
+          Test A<img src="images\Group 34119.png" alt=" test a" width="20%" height="20%">
+          Test B<img src="images\Group 34120.png" alt="" srcset=""width="20%" height="20%">
+        </section>
+        
+        <section class="interactive-prototype">
           <h2>06. INTERACTIVE PROTOTYPE</h2>
           <p>Content for Interactive Prototype section goes here...</p>
-          <video src="images\Untitled video - Made with Clipchamp.mp4"></video>
+          <a href="https://www.figma.com/proto/8k8q29h2Az6lWD61x13Dre/RFB-Redesign?node-id=571-2937&starting-point-node-id=571%3A2937&mode=design&t=BiLNA25HuCDXgqWb-1" target="_blank" class="btn btn-secondary">Figma Prototype</a>
         </section>
-        <section id="complete-case-study">
-          <h2>07. COMPLETE CASE STUDY</h2>
-          <p>Overall, we have redesigned the Rugby Foodbank website by improving the design consistency, user engagement and experience. After several iterations, we have a user-friendly design that will help users like Sam to easily navigate and complete their goals. </p>
-          <p>If we had more time, we would work on improving the “get help” feature as that would cater to a larger audience who would go on to the site to find help. We would also spend more time developing the design of other pages on the site to improve the overall site experience. 
-          </p>
-          <p>Link Video Desktop Home Page after iterations</p>
-        </section>
-      </div>
+<p></p>
+        <section class="complete-case-study">
+  <h2>07. COMPLETE CASE STUDY</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/fromthistothis.jpg" alt="from this to this" height="100%" width="100%">
+    </div>
+    <div class="col-md-6">
+      <p>
+        Overall, we have redesigned the Rugby Foodbank website by improving the design consistency, user engagement, and experience. After several iterations, we have a user-friendly design that will help users like Sam to easily navigate and complete their goals.
+      </p>
+      <p>
+        If we had more time, we would work on improving the “get help” feature as that would cater to a larger audience who would go on to the site to find help. We would also spend more time developing the design of other pages on the site to improve the overall site experience.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="https://docs.google.com/presentation/d/1ewOMQ5slmb6ixuah4m4xWEVbiXzuOYQT0w7nESqda1Y/edit?usp=sharing" target="_blank">
+          More
+        </a>
+      </p>
     </div>
   </div>
-  <img src="images\fromthistothis.jpg" alt="from this to this"><img src="images\nextsteps.jpg" alt="">
-  <!-- Bootstrap JS -->
-  <p>
-    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-      Link with href
-    </a>
-    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-      Button with data-bs-target
-    </button>
-  </p>
-  <div class="collapse" id="collapseExample">
-    <div class="card card-body">
-      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-    </div>
-  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<!--Javascript-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
